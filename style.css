@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* main title section */
+section.title {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(236, 232, 232);
+    position: relative;
+    margin-top: 4rem;
+}
+
+section.title h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(48, 47, 47);
+    padding: 1.5rem;
+}
+
+section.title p {
+    color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 0.3rem;
+}
+
+section.title p:nth-child(3) {
+    padding-bottom: 1rem;
+}
+
+/* picture of Adnan saidi */
+section.picture {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.picture img {
+    width: 20%;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+/* timeline of Adnan Saidi's life */
+section.timeline {
+    width: 100%;
+    background-color: rgb(236, 232, 232);
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+section.timeline h3:nth-child(1) {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
